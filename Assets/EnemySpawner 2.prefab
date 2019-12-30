@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1715381449287804}
+  m_IsPrefabParent: 1
+--- !u!1 &1715381449287804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4885927174991114}
+  - component: {fileID: 114586837055149168}
+  - component: {fileID: 65662165096069550}
+  - component: {fileID: 114197524050353444}
+  m_Layer: 0
+  m_Name: EnemySpawner 2
+  m_TagString: spawner
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4885927174991114
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715381449287804}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -42.2, y: 131.05, z: -64.8}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65662165096069550
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715381449287804}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15, y: 1, z: 1}
+  m_Center: {x: -1.4, y: -0.5, z: 0}
+--- !u!114 &114197524050353444
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715381449287804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114586837055149168
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715381449287804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 626e437844fbb834e8bff4040237537d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cars:
+  - {fileID: 1871446300925666, guid: e2bb888af2329b24b922103434448b89, type: 2}
+  - {fileID: 1882017257763930, guid: fd0c3c854c1159b48b06a6a229aaaf06, type: 2}
+  - {fileID: 1330624611874654, guid: d7cbac31d43e9c745b40dab2e16152f0, type: 2}
+  - {fileID: 1534098780734044, guid: df2ddc65f2df33a44afa5b7c160cb24a, type: 2}
+  - {fileID: 1422844652364696, guid: b630a485d51507a45bf4eebd21762cef, type: 2}
+  - {fileID: 1107919871913840, guid: a1f37635c5c192541ac6e528d3a51308, type: 2}
+  - {fileID: 1394058220991128, guid: c407d6930026cc7488c79b905014c4dc, type: 2}
+  - {fileID: 1979775637390456, guid: 5c461f1af1faaff46a8f1ff8246b3817, type: 2}
+  - {fileID: 1146935180147824, guid: aab48b43e657fb2448930d24429eec61, type: 2}
+  car: {fileID: 100202, guid: 8ffcb6a1fed2e764d9be0bfce34c119a, type: 3}
+  maxPos: 70
+  minPos: 37
+  carno: 0

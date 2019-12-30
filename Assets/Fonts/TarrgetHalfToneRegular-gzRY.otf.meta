@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 2b1b1fc42c6b6484e8038e3c4d7ae0ba
+timeCreated: 1568894644
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Tarrget Half-Tone
+  fontNames:
+  - Tarrget Half-Tone
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

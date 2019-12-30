@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: fe73135e01ca8b5428130a1c9ef8d548
+timeCreated: 1568894645
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: SNES
+  fontNames:
+  - SNES
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
